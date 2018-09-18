@@ -1,0 +1,307 @@
+*{
+
+	margin: 0px;
+	padding: 0px;
+	font-size: 100%;
+	font-family: Arial,sans-serif;
+	font-weight: normal;
+	box-sizing: border-box;
+	border: none;
+	outline: none;
+
+
+	
+}
+img{
+
+
+	width: 100%;
+
+}
+ul{
+
+	list-style: none;
+}
+a{
+
+	text-decoration: none;
+}
+h2{
+
+
+	font-size: 1.5em;
+	color: #333;
+}
+p{
+
+
+	font-size: 1em;
+	color: #777;
+}
+body{
+
+	background-color: #DCDCDC;
+}
+/*
+CABEÇALHO
+*/
+.cabecalho{
+
+
+	width: 100%;
+	float: left;
+	padding: 50px 8%;
+	background-color:#32CD32;
+
+}
+.cabecalho h1{
+
+	color: #F5F5F5;
+	font-size: 3em;
+	font-family: 'Indie Flower', cursive;
+
+}
+.cabecalho h2{
+
+    color: #F5f5f5;
+    float: left;
+	font-family: 'Indie Flower', cursive;
+	font-size:1.3em;
+	padding-left: 150px;
+
+   
+
+}
+.cabecalho form{
+
+
+	width: 30%;
+	float: right;
+}
+.cabecalho input[type="text"]{
+
+	width: 85%;
+	float: left;
+	padding: 15px 10px;
+	border-radius: 5px 0 0 5px;
+
+}
+
+.cabecalho button{
+
+
+	width: 15%;
+	float: right;
+	padding: 15px 10px;
+	background-color:#228B22;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 0 5px 5px 0;
+}
+.menu{
+
+	width: 100%;
+	float: left;
+	background-color: #228B22;
+	padding: 18px 8%;
+
+
+
+}
+.menu li{
+
+	float: left;
+}
+.menu li a{
+
+	color: #fff;
+	margin-right: 10px;
+	padding: 5px;
+	border-radius: 3px;
+	font-family: 'Inconsolata', monospace;
+
+
+}
+.menu li a:hover{
+
+
+	color: #111;
+	background-color:#32CD32;
+	transition-duration: 0.8s;
+}
+.social-icons{
+
+
+	float:right;
+
+}
+.social-icons a{
+
+color: #fff;
+float: left;
+margin-left: 12px;
+}
+.btn-facebook:hover{
+
+	color: #3b5998;
+}
+.btn-twitter:hover{
+
+	color: #54a4d6;
+
+}
+.btn-google:hover{
+
+	color: #D73D32;
+
+}
+.principal{
+
+	width: 100%;
+	float: left;
+	padding: 20px 8%;
+}
+.sobre{
+
+	width: 100%;
+	float: left;
+	padding: 20px;
+	border-color: #DCDCDC;
+
+}
+.sobre img{
+
+	width: 50%;
+	float: left;
+	border-radius: 5px;
+	margin: 40px;
+	background-color:#DCDCDC;
+
+}
+.sobre p{
+
+
+text-align: justify;
+padding-bottom: 10px;
+background-color:#F5F5F5;
+padding: 10px;
+border-radius: 5px;
+}
+
+/*Side bar*/
+.onde-estamos{
+
+
+width: 30%;
+float: right;
+padding: 10px 20px;
+background-color: #f5f5f5;
+border-radius: 5px;
+
+}
+.onde-estamos h2{
+
+	margin-bottom: 5px;
+
+}
+.onde-estamos iframe{
+
+	width: 100%;
+	height: 250px;
+	margin: 20px 0;
+	float: right;
+
+
+}
+.onde-estamos li{
+
+	color: #777;
+	margin-bottom: 10px;
+
+}
+.onde-estamos i{
+
+
+	margin-right: 5px;
+}
+/* newsletter*/
+
+.newsletter{
+
+	width: 100%;
+	float: left;
+	background-color: #228B22;
+	padding: 50px 8%;
+
+}
+.newsletter h3{
+
+	font-size: 1.8em;
+	color: #fff;
+	font-family: 'Inconsolata', monospace;
+
+}
+.newsletter p{
+	
+	font-size: 1.2em;
+	color: #fff;
+	font-family: 'Inconsolata', monospace;
+
+
+
+}
+.newsletter form{
+
+
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+
+}
+.newsletter form input{
+
+	width: 40%;
+	margin-right: 1%;
+	padding: 15px 10px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	color: #fff;
+	background-color: initial;
+	float: left;
+
+}
+.newsletter button{
+
+
+	width: 18%;
+	background-color:#32CD32;
+	padding: 15px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #fff;
+
+}
+.newsletter button:hover{
+
+	color: #111;
+	background-color:#32CD32;
+	transition-duration: 0.8s;
+
+}
+/*Rodape*/
+
+.rodape{
+
+	width: 100%;
+	float: left;
+	background-color:#32CD32;
+	padding: 20px 8%;
+
+
+}
+.rodape p{
+
+
+	color: #fff;
+	font-family: 'Inconsolata', monospace;
+}
